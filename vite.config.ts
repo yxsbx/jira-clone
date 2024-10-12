@@ -1,11 +1,8 @@
-import { defineConfig } from 'vite';
-import eslintPlugin from 'vite-plugin-eslint';
+import { defineConfig } from "vite";
+import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   plugins: [
-    eslintPlugin({
-      overrideConfigFile: '.eslintrc.cjs',
-      cache: false,
-    }),
+    [tsconfigPaths()],
   ],
 });
