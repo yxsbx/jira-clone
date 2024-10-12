@@ -12,7 +12,7 @@ package-lock.json
 dist
 dist-ssr
 *.local
-src/app/styles/app-compiled.css
+src/styles/app-compiled.css
 /public/build
 build
 .env
